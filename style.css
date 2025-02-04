@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-head {
+  margin: 25px 0;
+  font-size: 56px;
+}
+.game-container {
+  margin-bottom: 30px;
+}
+.game-container button {
+  font-size: 120px;
+  min-width: 160px;
+  margin: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: red;
+  transition: background-color 0.5s ease;
+}
+.game-container button:hover {
+  background-color: rgba(255, 0, 0, 0.461);
+}
+.player-display,
+.computer-display {
+  font-size: 40px;
+}
+.result-display {
+  font-size: 80px;
+  margin: 30px 0;
+}
